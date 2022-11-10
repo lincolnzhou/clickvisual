@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: alertmanager
+  namespace: clickvisual
 spec:
   replicas: 1
   selector:
